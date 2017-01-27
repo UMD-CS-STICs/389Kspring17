@@ -63,7 +63,7 @@ will be considered afterwards.
 ## Projects
 Projects must be submitted electronically following the instructions given in each project assignment. Projects may not be submitted by any other means (e.g., please do not email your projects to us). It is your responsibility to test your program and verify that it works properly before submitting. All projects are due at 11:59 PM on the day indicated on the project assignment.
 
-Projects may be submitted up to 24 hours late for a 10% penalty. If you submit both on-time & late, your project will received the maximum of the penalty-adjusted scores.  You may submit multiple times.
+Projects may be submitted up to 24 hours late for a 10% penalty. If you submit both on-time & late, your project will receive the maximum of the penalty-adjusted scores.  You may submit multiple times.
 
 Unlike lower-level programming classes, we will not provide you with test cases (e.g., public tests) before projects are due. You will be responsible for developing your own tests and for using appropriate testing techniques. Also, we expect your projects to use proper style and documentation.
 
