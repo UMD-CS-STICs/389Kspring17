@@ -1,9 +1,9 @@
-# HTML, CSS
+# Week 1: HTML, CSS
 -------------------------
 
-### What is HTML? 
+### What is HTML?
 
-HTML **(Hypertext Markup Language)** is the code that is used to structure and display a web page and its content. 
+HTML **(Hypertext Markup Language)** is the code that is used to structure and display a web page and its content.
 
 ### Setup
 ---------
@@ -28,9 +28,9 @@ Insert the following into your `index.html` file.
 ### Tags and Elements
 -------
 
-HTML tags define **elements** that wrap content. 
+HTML tags define **elements** that wrap content.
 
-For example, this is an HTML paragraph tag : 
+For example, this is an HTML paragraph tag :
 ```html
 <p> this is text </p>
 ```
@@ -42,7 +42,7 @@ The main parts of an HTML element are:
 
 Together, these parts form what we call an **element**.
 
-Important elements you should know are: 
+Important elements you should know are:
 ```html
 <h1> - <h6>   Heading
 <p> Paragraph
@@ -56,7 +56,7 @@ Important elements you should know are:
 <div>   Division
 ```
 
-Try experimenting with different elements and layouts to see how they are rendered in the browser. 
+Try experimenting with different elements and layouts to see how they are rendered in the browser.
 
 **Create h1 Element**
 
@@ -82,7 +82,7 @@ Header is a `container` element -- it wraps other elements, just like body or ht
 ### Body Content
 ----------------
 
-Add the following in the body, under the header. 
+Add the following in the body, under the header.
 
 ```html
 <h2> Title </h2>
@@ -92,20 +92,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione a odio fugit, 
 ### Element attributes
 ----------------------
 
-Elements can additionally have attributes. 
+Elements can additionally have attributes.
 
-For example: 
+For example:
 
 ```html
     <p class="editor-note" id="web"> this is text </p>
 ```
 
-These attributes can store extra information in the element. We can later access these attributes and the browser can special attribtues to render elements in certain ways. 
+These attributes can store extra information in the element. We can later access these attributes and the browser can special attribtues to render elements in certain ways.
 
 ### Images
 ---------
 
-In the header, above the `h1` element, add a image tag. 
+In the header, above the `h1` element, add a image tag.
 
 ```html
 <header>
@@ -114,7 +114,7 @@ In the header, above the `h1` element, add a image tag.
 </header>
 ```
 
-Set the attribute `width="150px"` to the image. Also set the attribute `src` to a url link to an image. For example, 
+Set the attribute `width="150px"` to the image. Also set the attribute `src` to a url link to an image. For example,
 
 ```html
 <img src="http://thestamp.umd.edu/portals/0/Images/Shops%20and%20Services/terapinLogo.png" width="150px">
@@ -123,7 +123,7 @@ Set the attribute `width="150px"` to the image. Also set the attribute `src` to 
 ### Navigation Bar
 ------------------
 
-Navigation bar can be designed as a unordered list. Here is how you make an unordered list. Add it below the h1 element in the header. 
+Navigation bar can be designed as a unordered list. Here is how you make an unordered list. Add it below the h1 element in the header.
 
 ```html
 <ul>
@@ -187,7 +187,7 @@ header {
 ### Push over the bullet points
 -----------------------
 
-By setting the padding to ten, we push over the bullet points off screen. 
+By setting the padding to ten, we push over the bullet points off screen.
 
 ```css
 ul {
@@ -208,11 +208,11 @@ li {
 
 **Block vs. Inline**
 
-Block: 
+Block:
 Ex: headings, paragraphs, list items by default
 Stretch the whole width of the webpage and have line breaks before and after
 
-Inline: 
+Inline:
 Ex: links by default
 Take up minimum space, and exist within normal flow. No line breaks follow.
 
@@ -226,8 +226,8 @@ li {
 }
 ```
 
-When we have 1 value for padding, it sets that padding on all four sides. 
-When we have 4 values, we individually define the padding for each side. The order goes: top right bottom left. 
+When we have 1 value for padding, it sets that padding on all four sides.
+When we have 4 values, we individually define the padding for each side. The order goes: top right bottom left.
 
 **Open chrome dev tools and show**
 
@@ -252,7 +252,7 @@ header {
 
 The links stay blue because, unlike most other elements like headings and paragraphs, links dont inherit color from their parent element.
 
-We have to explicitly set the color just for the anchor elements. 
+We have to explicitly set the color just for the anchor elements.
 
 ```css
 a {
@@ -293,7 +293,7 @@ img {
 ### Navigation bar
 ------------------
 
-Change the background color of the navigation bar unordered list to black, and style the links. 
+Change the background color of the navigation bar unordered list to black, and style the links.
 
 ```css
 ul {
@@ -328,7 +328,7 @@ article {
 }
 ```
 
-To center: 
+To center:
 
 ```css
 article {
@@ -338,9 +338,9 @@ article {
 }
 ```
 
-`margin: 0 auto` sets the top an bottom margins to 0, and left and right margins are automatically set to center the element. 
+`margin: 0 auto` sets the top an bottom margins to 0, and left and right margins are automatically set to center the element.
 
-This is a very good trick used all the time. 
+This is a very good trick used all the time.
 
 ### Responsiveness
 ------------------
@@ -362,13 +362,13 @@ Try adding this CSS rule, and then resizing the webpage:
 
 When you make the webpage less than 500px wide, the webpage turns red.
 
-Here are several rules to enable when the website becomes to small. Paste them in and try resizing the browser now. 
+Here are several rules to enable when the website becomes to small. Paste them in and try resizing the browser now.
 
 ```css
 @media (max-width: 500px) {
     h1 {
         font-size: 36px;
-    } 
+    }
     li {
         display: block; /*Makes them next to each other*/
         padding: 7px 0 7px 0; /*Change the padding to top and bottom now*/
@@ -390,5 +390,3 @@ a {
     border-radius: 5px;
 }
 ```
-
-
