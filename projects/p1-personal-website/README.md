@@ -1,5 +1,5 @@
 # Personal Website - An Introduction to HTML
-### Out: 1/27/17 | Due: 2/3/17 11:59 PM
+### Out: 1/27/17 | Due: 2/3/17 11:59 PM (Deadline 2/4/17 11:59 PM for 10% reduction)
 
 ## Overview
 For the project, you will create a simple website about you. This website will have pictures, links, text styling, and a few other features.
