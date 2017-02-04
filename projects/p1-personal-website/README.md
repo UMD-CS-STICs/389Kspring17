@@ -36,7 +36,7 @@ CSS (5 points each):
 3. Use the following css declarations:
     - display: inline
     - display: block
-4. Use the following css properies (1 point each):
+4. Use the following css properties (1 point each):
     - background-color
     - width
     - height
