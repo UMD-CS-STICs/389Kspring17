@@ -42,7 +42,6 @@ Your final course grade will be determined according to the following percentage
 Any request for reconsideration of any grading on coursework must be submitted within one week of when it is returned. No requests
 will be considered afterwards.
 
-## Schedule
 | Week | Topic | Assignment |
 | ----|----|----- |
 | 1 (1/27) | HTML + CSS | Personal Website (P1) OUT |
@@ -52,13 +51,13 @@ will be considered afterwards.
 | 5 (2/24) | Node.js (cont.) | P3 DUE, File Reading, Modules, HTTP (P4) OUT |
 | 6 (3/3) | Express.js | |
 | 7 (3/10) | Express.js (cont.) | P4 DUE, Personal Website Extended (P5) OUT  |
-| 8 (3/17) | Databases | |
-| 9 (3/31) | Databases (cont.) | P5 DUE, Online Notebook (P6) OUT, Final Project OUT |
-| 10 (4/7) | Final Project Lab | |
-| 11 (4/14) | Final Project Lab | P6 DUE |
-| 12 (4/21) | Final Project Lab | |
-| 13 (4/28) | Presentations | Final Project DUE |
-| 14 (5/5) | Presentations | Final Project DUE |
+| 8 (3/17) | Midterm | |
+| 8 (3/31) | Databases | |
+| 9 (4/7) | Databases (cont.) | P5 DUE, Online Notebook (P6) OUT, Final Project OUT |
+| 10 (4/14) | TBD | |
+| 11 (4/21) | Final Project Lab | P6 DUE |
+| 12 (4/28) | Final Project Lab | |
+| 13 (4/4) | Presentations | Final Project DUE |
 
 ## Projects
 Projects must be submitted electronically following the instructions given in each project assignment. Projects may not be submitted by any other means (e.g., please do not email your projects to us). It is your responsibility to test your program and verify that it works properly before submitting. All projects are due at 11:59 PM on the day indicated on the project assignment.
