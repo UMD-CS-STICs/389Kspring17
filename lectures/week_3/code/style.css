@@ -1,0 +1,68 @@
+ header {
+     text-align: center;
+     background: url("http://www.mtech.umd.edu/news/press_releases/images/UMD_aerial_fullres.png");
+     background-size: cover;
+     color: white;
+ }
+ 
+ img {
+     margin: 40px 0 0 0;
+     border: 7px solid red;
+     border-radius: 20px;
+     background-color: brown;
+ }
+ 
+ h1 {
+     font-size: 70px;
+ }
+ 
+ a {
+     color: white;
+     text-decoration: none;
+     background-color: gray;
+     padding: 5px;
+     border-radius: 5px;
+ }
+ 
+ ul {
+     padding: 10px;
+     background: black;
+ }
+ 
+ li {
+     display: inline;
+     padding: 0px 10px 0px 10px;
+ }
+ 
+ article {
+     max-width: 500px;
+     padding: 20px;
+     margin: 0 auto;
+ }
+ 
+ @media (max-width: 500px) {
+     h1 {
+         font-size: 36px;
+     }
+     li {
+         display: block;
+         padding: 7px 0 7px 0;
+     }
+     a {
+         padding: 5px 40% 5px 40%;
+     }
+ }
+ 
+ input {
+     padding: 10px;
+     width: 250px;
+ }
+ 
+ button {
+     border: 0;
+     padding: 10px;
+     background: brown;
+     box-shadow: none;
+     border-radius: 0px;
+     color: white;
+ }
