@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <style>
+    header {
+        text-align: center;
+        background: url("http://www.mtech.umd.edu/news/press_releases/images/UMD_aerial_fullres.png");
+        background-size: cover;
+        color: white;
+    }
+    
+    img {
+        margin: 40px 0 0 0;
+        border: 7px solid red;
+        border-radius: 20px;
+        background-color: brown;
+    }
+    
+    h1 {
+        font-size: 70px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+        background-color: gray;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    ul {
+        padding: 10px;
+        background: black;
+    }
+    
+    li {
+        display: inline;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    article {
+        max-width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    
+    @media (max-width: 500px) {
+        h1 {
+            font-size: 36px;
+        }
+        li {
+            display: block;
+            padding: 7px 0 7px 0;
+        }
+        a {
+            padding: 5px 40% 5px 40%;
+        }
+    }
+    
+    input {
+        padding: 10px;
+        width: 250px;
+    }
+    
+    button {
+        border: 0;
+        padding: 10px;
+        background: brown;
+        box-shadow: none;
+        border-radius: 0px;
+        color: white;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- page content goes here -->
+    <header>
+        <img src="http://thestamp.umd.edu/portals/0/Images/Shops%20and%20Services/terapinLogo.png" width="150px">
+        <h1>UMD Courses</h1>
+        <ul>
+            <li>
+                <a href="http://google.com">Home</a></li>
+            <li>
+                <a href="http://facebook.com">About</a>
+            </li>
+            <li>
+                <a href="#">Other</a>
+            </li>
+        </ul>
+    </header>
+    <article>
+        <h3>Search School Name:</h3>
+        <input id="school" type="text" placeholder="Ex: CMSC">
+        <button id="search">Search! </button>
+        <button id="clear"> Clear Results </button>
+    </article>
+    <div id="articles-container">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script>
+    $("#school").on("keyup", function() {
+        var school = $("#school").val();
+        $.get("http://api.umd.io/v0/courses?dept_id=" + school, function(data) {
+            $("#articles-container").empty();
+
+            if (data.length == 0) {
+                $("#articles-container").append("<article><h2>OOPS, not found</h2></article>");
+                return;
+            }
+            for (var i = 0; i < data.length; i++) {
+                var current = data[i];
+                $("#articles-container").append("<article><h2>" + current.course_id + " : " + current.name + "</h2><p>" + current.description + "</p></article>")
+            }
+        });
+    });
+
+    $("#clear").on("click", function() {
+        $("#articles-container").empty();
+        $("#school").val("");
+    });
+    </script>
+</body>
+
+</html>
