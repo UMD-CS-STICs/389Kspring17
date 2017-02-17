@@ -351,7 +351,7 @@ function handleReq(req, res){
 
 var server = http.createServer(handleReq);
 
-server.listen(8888, function(){
+server.listen(PORT, function(){
     console.log("Server listening on: http://localhost:%s", PORT);
 });
 ```
