@@ -6,7 +6,7 @@ var states = ["Idaho", "South Dakota", "Hawaii", "Alaska", "Alabama", "New York"
 
 // These are all the states.
 // Use this list if you want to test out the full game
-var abvMap {
+var abvMap = {
     "Alabama": "AL",
     "Alaska": "AK",
     "Arizona": "AZ",
