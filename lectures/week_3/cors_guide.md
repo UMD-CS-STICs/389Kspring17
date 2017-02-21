@@ -24,7 +24,7 @@ CORs allows us to make requests from one domain to another. For this project, we
 
 **What is causing the problem?**
 
-The problem is your *web browswer*. In order to prevent sites from abusing other sites and promote security, certain web browsers have a built in security measure called the *same-origin policy**.
+The problem is your *web browser*. In order to prevent sites from abusing other sites and promote security, certain web browsers have a built in security measure called the *same-origin policy**.
 
 What this does is restrict resources, such as our JavaScript code, from interacting with resources from different domains than our own. 
 
