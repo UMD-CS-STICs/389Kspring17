@@ -38,6 +38,11 @@ There's a clever trick to *very easily* solve this problem. It's called `jsonp`.
 
 All you have to do in your code is slightly change how you make your get request. 
 
+First, make sure you are using the latest version of jQuery: 
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+```
+
 Let's say this is your original request (just like how we did it in class): 
 ```javascript
 $.get("http://google.com", function(data) {
