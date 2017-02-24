@@ -48,9 +48,9 @@ will be considered afterwards.
 | 2 (2/3) | Javascript Language w/ DOM | P1 DUE, JS Function Implementation (P2) OUT |
 | 3 (2/10) | jQuery and AJAX | P2 DUE, 50 State Game (P3) OUT |
 | 4 (2/17) | Node.js |  |
-| 5 (2/24) | Node.js (cont.) | P3 DUE, File Reading, Modules, HTTP (P4) OUT |
-| 6 (3/3) | Express.js | |
-| 7 (3/10) | Express.js (cont.) | P4 DUE, Personal Website Extended (P5) OUT  |
+| 5 (2/24) | Express.js | P3 DUE, Pokémon API (P4) OUT |
+| 6 (3/3) | Express.js (cont.) | |
+| 7 (3/10) | Express.js (cont.) | P4 DUE, TBD (P5) OUT  |
 | 8 (3/17) | Midterm | |
 | 9 (3/31) | Databases | |
 | 10 (4/7) | Databases (cont.) | P5 DUE, Online Notebook (P6) OUT, Final Project OUT |
