@@ -107,7 +107,7 @@ You will need to implement the following routes. All API routes are under `/api`
 
   You can assume we will provide the correct capitalization of the Pokemon. (Ex: We will request `/evochain/Pikachu`, not `/evochain/pikachu`)
 
-  For those not familiar with Pokemon, Pokemon evolve into other Pokemon in it's evochain. Think of it as a singly-linked linked list. It is tored in the JSON under `prev_evolution` and `next_evolution`.
+  For those not familiar with Pokemon, Pokemon evolve into other Pokemon in its evochain. Think of it as a singly-linked linked list. It is stored in the JSON under `prev_evolution` and `next_evolution`.
 
   ---- 
 
@@ -297,7 +297,7 @@ You will need to implement the following routes. All API routes are under `/api`
   Display an HTML page with a table of all the Pokemon's data in two columns: 
 
   1. Key
-  2. Value (if the value is not a String, just show it's `toString` representation)
+  2. Value (if the value is not a String, just show its `toString` representation)
 
   If the Pokemon ID does not exist, return an "Error: Pokemon not found". 
 
