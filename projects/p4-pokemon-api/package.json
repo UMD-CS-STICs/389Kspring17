@@ -1,0 +1,18 @@
+{
+  "name": "p4-pokemon-api-real",
+  "version": "1.0.0",
+  "description": "## Overview For the project, you will be creating your own API to query a JSON containing information about Pokémon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "request": "^2.79.0",
+    "underscore": "^1.8.3"
+  }
+}
