@@ -31,7 +31,7 @@ The **Website portion** will be tested manually after submission to the submit s
 Clone this project folder and run `npm install` inside the directory. 
 
 You have the following files available to you: 
-- `index.js`: this is where all your code will be. We have provided a skeleton of a working server that has Express required and initialized, middelware initialized, and the server listening on port `3000`. We have also defined all the routes. **This is the only file you should edit, and where all your code must be.**
+- `index.js`: this is where all your code will be. We have provided a skeleton of a working server that has Express required and initialized, middleware initialized, and the server listening on port `3000`. We have also defined all the routes. **This is the only file you should edit, and where all your code must be.**
 - `poke.json`: this is a `json` file containing all of the Pokemon data you will need.
 - `poke-data-util.js`: these are three utility functions available for you. Read them carefully to understand what they are doing. 
 
