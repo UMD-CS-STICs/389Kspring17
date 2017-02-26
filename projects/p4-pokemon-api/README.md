@@ -107,7 +107,7 @@ You will need to implement the following routes. All API routes are under `/api`
 
   You can assume we will provide the correct capitalization of the Pokemon. (Ex: We will request `/evochain/Pikachu`, not `/evochain/pikachu`)
 
-  For those not familiar with Pokemon, Pokemon evolve into other Pokemon in its evochain. Think of it as a singly-linked linked list. It is stored in the JSON under `prev_evolution` and `next_evolution`.
+  For those not familiar with Pokemon, Pokemon evolve into other Pokemon in its evochain. Think of it as a linked list. The evochain is stored in the JSON under `prev_evolution` and `next_evolution`.
 
   ---- 
 
@@ -138,7 +138,7 @@ You will need to implement the following routes. All API routes are under `/api`
 
   If no Pokemon are of the given type, then return an empty array. 
 
-  You can assume we will provide the correct capitalization of the type. (Ex: We will request `/type/Fire`, not `/evochain/fire`)
+  You can assume we will provide the correct capitalization of the type. (Ex: We will request `/type/Fire`, not `/type/fire`)
 
   ---
 
@@ -276,7 +276,7 @@ You will need to implement the following routes. All API routes are under `/api`
   ![Pokemon Page](http://i.imgur.com/976SSuy.png)
 
 
-  Reponse (HTML: 
+  Reponse (HTML): 
 
   ```html
   <html>
@@ -376,3 +376,7 @@ When testing with mocha, make sure before you run your tests that:
 Please submit your `index.js` file **only** to the submit server.
 
 You cannot use any other npm packages, so do not include your `package.json`
+
+## Credits
+
+Credit to https://github.com/Biuni/PokemonGO-Pokedex/ for the `poke.json` file. 
