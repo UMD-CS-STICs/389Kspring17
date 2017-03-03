@@ -1,0 +1,12 @@
+{{#if error}}
+<h1>Something bad has happened!</h1>
+{{else}}
+<h1>We are performing: {{oper}}</h1>
+<h2>Our input was: {{inp}}</h2>
+<h2>The output was: {{result}}</h2>
+{{/if}}
+<ol>
+{{#each past}}
+<li>{{this}}</li>
+{{/each}}
+</ol>
