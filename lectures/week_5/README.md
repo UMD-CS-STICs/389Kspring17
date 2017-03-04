@@ -397,7 +397,7 @@ In Postman, edit the following settings:
 
 When you click send, you should see this in your terminal: 
 
-```json
+```js
 { nelson: '7038919132', sashank: '5714199811' }
 ```
 
