@@ -1,0 +1,22 @@
+<h1>Create New Blog Post</h1>
+<article>
+    <form method="POST" action="/create">
+        <div class="input-field">
+            <label>Blog Title:</label>
+            <input type="text" name="title" size="50" placeholder="Blog Title...">
+        </div>
+         <div class="input-field">
+            <label>Blog Slug:</label>
+            <input type="text" name="slug" size="50" placeholder="blog-title">
+        </div>
+        <div class="input-field">
+            <label>Blog Tags:</label>
+            <input type="text" name="tags" size="50" placeholder="Tag1 Tag2 Tag3 (seperated by spaces)">
+        </div>
+        <div class="input-field">
+            <label>Content:</label>
+            <textarea type="text" name="content" rows="20" placeholder="Blog Title..."></textarea>
+        </div>
+        <button type="submit">Create Blog Post </button>
+    </form>
+</article>
