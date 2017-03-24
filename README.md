@@ -50,7 +50,7 @@ will be considered afterwards.
 | 4 (2/17) | Node.js |  |
 | 5 (2/24) | Express.js | P3 DUE, Pokémon API (P4) OUT |
 | 6 (3/3) | Express.js (cont.) | |
-| 7 (3/10) | Express.js (cont.) | P4 DUE, TBD (P5) OUT  |
+| 7 (3/10) | Express.js (cont.) | P4 DUE, Representatives Website (P5) OUT  |
 | 8 (3/17) | Midterm | |
 | BREAK (3/24) | | | Final Project OUT |
 | 9 (3/31) | Databases | P5 DUE |
