@@ -52,10 +52,11 @@ will be considered afterwards.
 | 6 (3/3) | Express.js (cont.) | |
 | 7 (3/10) | Express.js (cont.) | P4 DUE, TBD (P5) OUT  |
 | 8 (3/17) | Midterm | |
-| 9 (3/31) | Databases | |
-| 10 (4/7) | Databases (cont.) | P5 DUE, Online Notebook (P6) OUT, Final Project OUT |
+| BREAK (3/24) | | | Final Project OUT |
+| 9 (3/31) | Databases | P5 DUE |
+| 10 (4/7) | Databases (cont.) |  |
 | 11 (4/14) | TBD | |
-| 12 (4/21) | Final Project Lab | P6 DUE |
+| 12 (4/21) | Final Project Lab | |
 | 13 (4/28) | Final Project Lab | |
 | 14 (4/4) | Presentations | Final Project DUE |
 
