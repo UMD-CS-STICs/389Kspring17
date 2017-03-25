@@ -31,4 +31,13 @@ For simplicity, we will be using **mlab**, a MongoDB hosting service. Below are 
 
 ![](http://i.imgur.com/fTJQqhf.png)
 
+5) **Create a new user**
+
+Go to the `Users` tab, and select `+ Add databsae user`. Enter a username and password. 
+
+![](http://i.imgur.com/sVYGmlD.png)
+
+![](http://i.imgur.com/ApzhuP2.png)
+
+
 If your database was created successfully, you should be good to go for class! 
