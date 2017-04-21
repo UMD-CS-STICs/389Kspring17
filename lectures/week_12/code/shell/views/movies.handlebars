@@ -1,0 +1,11 @@
+<form id="movies">
+<input name="title" id="title" type="text" placeholder="Beauty and a Beast"/>
+<input name="genre" id="genre" type="text" placeholder="Family"/>
+<button>POST</button>
+</form>
+<br>
+<ul id="movList">
+{{#each movies}}
+<li>{{this.title}}: {{this.genre}}</li>
+{{/each}}
+</ul>
