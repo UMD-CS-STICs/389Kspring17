@@ -55,7 +55,7 @@ will be considered afterwards.
 | BREAK (3/24) | | | Final Project OUT |
 | 9 (3/31) | Databases | P5 DUE |
 | 10 (4/7) | Databases (cont.) |  |
-| 11 (4/14) | TBD | |
+| 11 (4/14) | Mega Boilerplate | |
 | 12 (4/21) | Final Project Lab | |
 | 13 (4/28) | Final Project Lab | |
 | 14 (4/4) | Presentations | Final Project DUE |
