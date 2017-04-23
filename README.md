@@ -56,9 +56,9 @@ will be considered afterwards.
 | 9 (3/31) | Databases | P5 DUE |
 | 10 (4/7) | Databases (cont.) |  |
 | 11 (4/14) | Mega Boilerplate | |
-| 12 (4/21) | Final Project Lab | |
-| 13 (4/28) | Final Project Lab | |
-| 14 (4/4) | Presentations | Final Project DUE |
+| 12 (4/21) | Web Sockets | |
+| 13 (4/28) | Now + TBD | |
+| 14 (5/5) | Presentations | Final Project DUE |
 
 ## Projects
 Projects must be submitted electronically following the instructions given in each project assignment. Projects may not be submitted by any other means (e.g., please do not email your projects to us). It is your responsibility to test your program and verify that it works properly before submitting. All projects are due at 11:59 PM on the day indicated on the project assignment.

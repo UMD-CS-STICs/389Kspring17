@@ -1,5 +1,5 @@
 # Final Project
-#### Out: 4/3/17 | Deadline: 5/1/17 11:59 PM 
+#### Out: 4/3/17 | Deadline: 5/5/17 10:00 AM 
 
 ### Overview 
 
@@ -220,7 +220,7 @@ There is a provided a shell that has all the dependencies you need set up. We ha
 
 ### Submission
 
-We will detail how to submit this project in the next week. In class we will learn about hosting and git.
+We will be using [now](https://zeit.co/now) to submit one link per project. We will go over how to use this in class on 4/28.
 
 ### Additional Comments
 
