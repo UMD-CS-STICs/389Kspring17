@@ -169,7 +169,7 @@ There is a provided a shell that has all the dependencies you need set up. We ha
     
     **Example:**
     
-    I chose to implement search on Dog names. Suppose I have dogs `"nelson"`,  `"nelley"`, and `"noslen"`. As soon as I type `"N"` (without hitting enter), the  list should be filtered to only include `"nelson"` and `"nelley"`. If I type `"Nee"`, then I should see something like "There are no dogs with the name "Nee". 
+    I chose to implement search on Dog names. Suppose I have dogs `"nelson"`,  `"nelley"`, and `"noslen"`. As soon as I type `"Ne"` (without hitting enter), the  list should be filtered to only include `"nelson"` and `"nelley"`. If I type `"Nee"`, then I should see something like "There are no dogs with the name "Nee". 
     
     In `documentation.md`, you will need to include: 
     - Which field you chose to conduct the search on. If you pick a string field, please make sure it is case-insensitive.
