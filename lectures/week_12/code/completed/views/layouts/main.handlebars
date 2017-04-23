@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css">
+</head>
+<body>
+    {{{body}}}
+    <script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script>
+	var socket = io();
+	$('#box').submit(function(){
+		socket.emit('chat message', $('#m').val());
+		$('#m').val('');
+		return false;
+	});
+
+	socket.on('chat message', function(msg){
+		$('#messages').append($('<li>').text(msg));
+	});
+
+	$('#movies').submit(function(){
+		var genre = $('#genre').val();
+		var title = $('#title').val();
+		$('#genre').val('');
+		$('#title').val('');
+		$.ajax({
+		    type: "POST",
+		    url: '/movies',
+		    data: { 
+						title: title,
+						genre: genre 
+					},
+		    success: function(data, status){
+		        console.log(data);		        
+		    }
+		});	
+		return false;
+	});
+
+	socket.on('new movie', function(mov){
+		$('#movList').append($('<li>').text(mov.title + ': ' + mov.genre));
+	});
+	</script>
+</body>
+</html>
+
