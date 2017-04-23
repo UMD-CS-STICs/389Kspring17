@@ -43,7 +43,7 @@ There is a provided a shell that has all the dependencies you need set up. We ha
 
 1. **Data Format and Storage**
 
-    - (REQ) Data should be stored in MongoDB
+    - (REQ) Data should be stored in MongoDB (use mlab.com for ease)
     - (5 pt) Each schema should have _at least_ 5 fields (minimum one schema).
     - (5 pt) There should be at least one of each of the following field types:
         - String
