@@ -115,6 +115,25 @@ app.get("/", function(req, res) {
 app.listen(3000);
 ```
 
+One last thing we need to do is render a variable in our main handlebars file:
+
+`main.handlebars`:
+```handlebars
+<html>
+
+<body>
+    {{{body}}}
+</body>
+
+<script>
+    {{{state}}}
+</script>
+
+</html>
+```
+
+`{{{state}}}` will actually insert the variable into our page. 
+
 **Exposing data**: 
 
 Now exposing data is really easy. We can do it through `app` for globally exposed data, and through `res` for per-request based exposed data. 
