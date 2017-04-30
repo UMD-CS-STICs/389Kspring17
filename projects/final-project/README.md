@@ -165,7 +165,7 @@ There is a provided a shell that has all the dependencies you need set up. We ha
     - (15 pt) As the user types in the search bar, filter the results on the page   to those that match the search query. The results should be **auto-updating**. This means that for every keystroke, the results should be updated. The page should NOT refresh while typing and searching. 
     - (5 pt) If there is no match, then display text indicating that there are no   matches. 
     
-    Note: Feel free to use any **NPM Modules** to help you complete this task. 
+    Note: Feel free to use any NPM modules or JavaScript libraries to help you complete this task. 
     
     **Example:**
     
@@ -225,5 +225,7 @@ We will be using [now](https://zeit.co/now) to submit one link per project. We w
 ### Additional Comments
 
 You can use mlab for a free MongoDB instance. Read the instructions [here](http://google.com) for instructions.
+
+Feel free to use any JavaScipt frameworks/libraries, CSS frameworks, or npm modules to help you complete this project. 
 
 Please ask questions if you are confused! Posting in piazza is a huge resource for everyone. This is a very general project, so we expect to clarify quite a bit. 
