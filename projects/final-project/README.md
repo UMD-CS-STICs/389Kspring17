@@ -220,7 +220,19 @@ There is a provided a shell that has all the dependencies you need set up. We ha
 
 ### Submission
 
-We will be using [now](https://zeit.co/now) to submit one link per project. We will go over how to use this in class on 4/28.
+We will be using [now](https://zeit.co/now) to submit one link per project. 
+
+Find instructions on how to deploy a project using now here: [now tutorial](https://github.com/CMSC389K/spring17/blob/master/lectures/week_13/README.md)
+
+Make sure you use the `-e` (as specified in the tutorial) to save your mlab MongoDB URI enviroment variable. 
+
+At the top of your project, include the **now link** (ex: https://test-tqfsoraknt.now.sh) at the top of your `documentation.md` file, like so:
+
+```markdown
+Now link: https://test-tqfsoraknt.now.sh
+```
+
+Submit just the `documentation.md` file to the submit server.
 
 ### Additional Comments
 
