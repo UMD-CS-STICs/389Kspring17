@@ -1,4 +1,5 @@
-# CMSC389K: <br> Full-stack Web Development with Node.js 
+# CMSC389K: Full-stack Web Development with Node.js 
+![Imgur](http://i.imgur.com/19j0ajP.png)
 ## Prerequisites: C- or better in CMSC216 and CMSC250
 ## Credits: 1
 
