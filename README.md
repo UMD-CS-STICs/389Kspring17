@@ -16,7 +16,7 @@ This course provides a comprehensive, practical introduction to modern full-stac
 - **Location**: CSI 1122
 - **Semester**: Spring 2017
 - **Textbook**: None
-- **Course Facilitators**: [Ishaan Parikh](linkedin.com/in/iparikh) and [Sashank Thupukari](https://www.linkedin.com/in/sthupukari)
+- **Course Facilitators**: [Ishaan Parikh](https://www.linkedin.com/in/iparikh) and [Sashank Thupukari](https://www.linkedin.com/in/sthupukari)
 - **Faculty Advisor**: [Nelson Padua Perez](http://www.cs.umd.edu/~nelson/)
 - **Syllabus Last Updated**: May 24, 2017
 
